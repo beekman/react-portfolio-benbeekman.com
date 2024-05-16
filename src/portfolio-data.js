@@ -1,7 +1,7 @@
 export default {
   'about': {
     'title': 'Full-Stack Software Engineer',
-    'summary': 'I\'m a full-stack web and software engineer with an entrepreneurial background in front-end web development, SEO, and education. I\'m enthusiastic about creating code that solves human-centered problems and I love learning and teaching new techniques and technologies.',
+    'summary': 'I\'m a front-end leaning full-stack software engineer with an entrepreneurial background in front-end web development, SEO, and education. I\'m enthusiastic about creating code that solves human-centered problems and I love learning and teaching new techniques and technologies.',
     'pitch': 'As a full-stack web engineer role at a startup, I spent the past fifteen months working on all kinds of web-based software and plugins to aid with and automate multi-departmental processes.',
     'history': 'I\'m fascinated by the ways digital technology can engage and empower people. Since earning my U of O degree in Multimedia Design, I\'ve spent more than a decade helping people harness the power of that technology. I\'ve taught classes for young people, tutored older people, consulted for small businesses, co-authored technology textbooks, served as both design and IT department for a small media company, and designed and developed websites and software for businesses, nonprofits, and individuals.',
   },
@@ -468,26 +468,32 @@ export default {
       {
         'title': 'Erskine Solar Art',
         'image': 'erskineSolarArt',
+        'link': 'https://erskinesolarart.net'
       },
       {
         'title': 'Freshops',
         'image': 'freshops',
+        'link': 'https://freshops.com'
       },
       {
         'title': 'RSB Law',
         'image': 'rsbLaw',
+        'link': 'http://www.rsblaw.net',
       },
       {
         'title': 'Johanna',
         'image': 'johanna',
+        'link': 'https://johannasings.com',
       },
       {
         'title': 'Digital Planet',
         'image': 'digitalPlanet',
+        'link': 'https://digitalplanet.net',
       },
       {
         'title': 'Oasis Life Design',
         'image': 'oasis',
+        'link': 'https://oasislifedesign.com',
       },
     ]
   }
