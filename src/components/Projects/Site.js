@@ -9,7 +9,7 @@ import freshops from '../../assets/portfolio/thumbs/freshops.png';
 import oasis from '../../assets/portfolio/thumbs/oasis.png';
 import styles from './Projects.css';
 
-const Site = ({ site }) => {
+const Site = ({site}) => {
 
   const screenObj = {
     'Erskine Solar Art': erskineSolarArt,
@@ -23,7 +23,9 @@ const Site = ({ site }) => {
   return (
     <>
       <ScrollAnimation animateIn="fadeInRight">
-        <img src={screenObj[site.title]} alt={site.title} title={site.title} />
+        <a href={site.link} target='_blank' rel='noopener noreferrer'>
+          <img src={screenObj[site.title]} alt={site.title} title={site.title} />
+        </a>
       </ScrollAnimation>
     </>
   );
@@ -32,9 +34,7 @@ Site.propTypes = {
   site: PropTypes.shape({
     title: PropTypes.string.isRequired,
     description: PropTypes.string,
-    github: PropTypes.string,
-    demo: PropTypes.string,
-    tech: PropTypes.array.isRequired
+    link: PropTypes.string,
   }),
 };
 
